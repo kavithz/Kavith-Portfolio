@@ -236,6 +236,15 @@ section h2{
     font-size:1.02rem;
 }
 
+.about-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:24px;
+    max-width:1100px;
+    margin:50px auto 0;
+    text-align:left;
+}
+
 /* ---------- Skills & Projects grids ---------- */
 
 .skills-container{
