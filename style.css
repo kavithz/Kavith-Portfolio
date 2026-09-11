@@ -206,7 +206,7 @@ section h2{
 
 .skills h2,
 .projects h2,
-.connect h2{
+.hire-me h2{
     margin-bottom:50px;
 }
 
@@ -301,18 +301,20 @@ section h2{
     border-radius:6px;
 }
 
-.connect{
+/* ---------- Connect ---------- */
+
+.hire-me{
     text-align:center;
     background:rgba(7, 14, 27, 0.55);
 }
 
-.connect-intro{
+.hire-me-intro{
     color:var(--text-muted);
     max-width:520px;
     margin:0 auto 40px;
 }
 
-.connect-links{
+.hire-me-links{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
     gap:20px;
@@ -320,7 +322,7 @@ section h2{
     margin:0 auto;
 }
 
-.connect-card{
+.hire-me-card{
     display:flex;
     flex-direction:column;
     gap:6px;
@@ -332,19 +334,19 @@ section h2{
     transition:transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-.connect-card:hover{
+.hire-me-card:hover{
     transform:translateY(-6px);
     border-color:var(--accent);
     box-shadow:0 14px 30px rgba(0,0,0,0.35);
 }
 
-.connect-label{
+.hire-me-label{
     font-family:var(--font-mono);
     font-size:0.8rem;
     color:var(--accent);
 }
 
-.connect-value{
+.hire-me-value{
     font-size:0.95rem;
     color:var(--text-primary);
     word-break:break-word;
