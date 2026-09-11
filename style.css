@@ -214,7 +214,7 @@ section h2{
 
 .skills h2,
 .projects h2,
-.connect h2{
+.hire-me h2{
     margin-bottom:50px;
 }
 
@@ -315,7 +315,7 @@ section h2{
 
 /* ---------- Connect ---------- */
 
-.connect{
+.hire-me{
     text-align:center;
     background:rgba(7, 14, 27, 0.55);
 }
