@@ -39,8 +39,6 @@ a{
     color:inherit;
 }
 
-/* ---------- Shared eyebrow / label style ---------- */
-
 .eyebrow{
     font-family:var(--font-mono);
     font-size:0.85rem;
@@ -52,8 +50,6 @@ a{
 .eyebrow.center{
     text-align:center;
 }
-
-/* ---------- Header / Nav ---------- */
 
 header{
     position:sticky;
@@ -118,8 +114,6 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width:100%;
 }
-
-/* ---------- Hero ---------- */
 
 .hero{
     min-height:92vh;
@@ -198,8 +192,6 @@ nav ul li a:hover::after{
     transform:translateY(-3px);
 }
 
-/* ---------- Sections ---------- */
-
 section{
     padding:100px 10%;
 }
@@ -217,8 +209,6 @@ section h2{
 .hire-me h2{
     margin-bottom:50px;
 }
-
-/* ---------- About ---------- */
 
 .about{
     background:rgba(7, 14, 27, 0.55);
@@ -244,8 +234,6 @@ section h2{
     margin:50px auto 0;
     text-align:left;
 }
-
-/* ---------- Skills & Projects grids ---------- */
 
 .skills-container{
     display:grid;
@@ -364,8 +352,6 @@ section h2{
     word-break:break-word;
 }
 
-/* ---------- Footer ---------- */
-
 footer{
     text-align:center;
     padding:28px 20px;
@@ -374,8 +360,6 @@ footer{
     color:var(--text-muted);
     font-size:0.88rem;
 }
-
-/* ---------- Responsive ---------- */
 
 @media (max-width:768px){
     nav{
