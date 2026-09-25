@@ -405,3 +405,91 @@ footer{
         text-align:center;
     }
 }
+
+/* ================================
+   PROJECT CARDS
+================================ */
+
+.project-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    min-height: 420px;
+
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+/* Project title */
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Project description */
+.project-card p {
+    margin-top: 0;
+    margin-bottom: 24px;
+    line-height: 1.65;
+}
+
+/* Technology tags */
+.project-card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* ================================
+   PROJECT LINKS
+================================ */
+
+.project-links {
+    position: absolute;
+    right: 28px;
+    bottom: 26px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin: 0;
+}
+
+/* Icon link */
+.project-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28px;
+    height: 28px;
+
+    text-decoration: none;
+    color: inherit;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+/* Hover effect */
+.project-links a:hover {
+    transform: translateY(-3px);
+    opacity: 0.7;
+}
+
+/* GitHub SVG */
+.project-links svg {
+    width: 23px;
+    height: 23px;
+    fill: currentColor;
+}
+
+/* Demo / external link icon */
+.project-links .demo-icon {
+    font-size: 21px;
+    line-height: 1;
+}
